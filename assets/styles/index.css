@@ -49,7 +49,14 @@ h2 {
     justify-content: center;
 }
 
-.flex-end {
-    justify-content: center;
+.justify-end {
+    justify-content: flex-end;
 }
 
+.justify-between {
+    justify-content: space-between
+}
+
+.justify-column {
+    flex-direction: column;
+}
