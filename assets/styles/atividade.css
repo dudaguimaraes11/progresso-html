@@ -61,6 +61,6 @@
     cursor: pointer;
     transition: transform 0.2s;
     justify-content: column;
-    box-shadow: 0 0 20px rgb(0, 255, 0));
+    box-shadow: 0 0 20px rgb(0, 255, 0);
   }
 
