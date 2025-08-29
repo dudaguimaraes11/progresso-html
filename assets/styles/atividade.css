@@ -1,33 +1,23 @@
 
-.stories-container {
-    height: 100vh;
+.circulo {
+    height: 300px; 
+    width: 150px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 20px;
     flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 200px auto 300px;
 }
 
-.stories-container {
-    display: flex;
-    gap: 15px;
-    overflow-x: auto;
-    padding: 10px;
-    background: white;
-    border-radius: 8px;
-  }
-  
-  .circulo{
-    flex: 80px;
-    text-align: center;
-    justify-content: column
-  }
   
   .circle-01 {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: green;
+    background: rgb(255, 0, 0);
     color: white;
     display: flex;
     align-items: center;
@@ -36,14 +26,15 @@
     font-size: 20px;
     cursor: pointer;
     transition: transform 0.2s;
-    justify-content: column
+    justify-content: column; 
+    box-shadow: 0 0 20px rgb(255, 0, 0);
   }
   
   .circle-02 {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: red;
+    background: rgb(255, 251, 0);
     color: white;
     display: flex;
     align-items: center;
@@ -52,14 +43,15 @@
     font-size: 20px;
     cursor: pointer;
     transition: transform 0.2s;
-    justify-content: column
+    justify-content: column;
+    box-shadow: 0 0 20px rgb(255, 251, 0);
   }
 
   .circle-03 {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: yellow;
+    background: rgb(0, 255, 0);
     color: white;
     display: flex;
     align-items: center;
@@ -68,5 +60,7 @@
     font-size: 20px;
     cursor: pointer;
     transition: transform 0.2s;
-    justify-content: column
+    justify-content: column;
+    box-shadow: 0 0 20px rgb(0, 255, 0));
   }
+
