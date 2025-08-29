@@ -1,19 +1,72 @@
-.quadrado {
+
+.stories-container {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-direction: column;
 }
 
-.q1 {
-    width: 150px;
-    height: 150px;
-    background-color: aquamarine;
-}
+.stories-container {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+  }
+  
+  .circulo{
+    flex: 80px;
+    text-align: center;
+    justify-content: column
+  }
+  
+  .circle-01 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    justify-content: column
+  }
+  
+  .circle-02 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    justify-content: column
+  }
 
-.q2 {
-    width: 150px;
-    height: 150px;
-    background-color: rgb(47, 0, 255);
-}
+  .circle-03 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: yellow;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    justify-content: column
+  }
