@@ -1,8 +1,19 @@
 .quadrado {
-    width: 25%;
-    height: 200px;
-    background-color: rgb(145, 11, 56);
-    margin: 0 auto 20px;
-    margin-top: 60px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+
+.q1 {
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.q2 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(47, 0, 255);
 }
